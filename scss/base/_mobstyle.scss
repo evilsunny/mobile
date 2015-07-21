@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px) {
+	.head {
+		position: relative;
+		display: block;
+		border-bottom: 0px;	
+
+		.logo {
+			display: none;
+		}
+
+		.menuicon { 
+			display: inline-block;
+			width: 10%;
+			padding: 3px;
+		}
+
+		.menu {		
+			position: absolute;
+			float: left;
+			width: 85%;
+		    height: 50px;
+			padding: 5px 0;
+		}
+
+		.link {
+			position: absolute;
+			display: none; 
+			float: none;
+			width: 100%;	
+			margin: 0;
+			background: #FFF;
+		}
+
+		a {
+			display: block;
+			padding: 5px 5px 5px 32px;
+			text-align: left;
+		}
+
+	  
+		.menu:hover  .link {
+			position: relative; 
+			display: block;
+			margin: 0 0 12px;
+	 		padding:10px 0px 10px 16px;
+		}
+
+		.link:hover .submenu  {
+			position: relative; 
+			display: block;
+			width: 100%;
+		}
+
+		.submenu li {
+	  		padding: 8px 0px 8px 10px;
+
+			text-align:left;
+		}
+	}	
+
+	.column {
+		float: none;
+		width: 100%;
+	}
+
+}

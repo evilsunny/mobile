@@ -1,0 +1,23 @@
+.title {
+	display: inline-block;
+
+	margin: 15px;
+	padding-top: 40px;
+	padding-left: 50px;
+
+	font-size: 40px;
+	color: $text-in-content-color;
+
+	line-height: 45px;
+}
+
+.learnmore {
+	margin-left: 70px;
+	margin-top:144px;
+	padding: 10px;
+	border-radius: 10px;
+
+	text-decoration: none;
+	background-color: $button-color;
+	color: $text-in-content-color;
+}

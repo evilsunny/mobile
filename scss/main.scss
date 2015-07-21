@@ -1,7 +1,14 @@
 @import "vendors/normalize";
 
-@import "components/menu";
+@import "base/variables.scss";
+@import "base/mobstyle.scss";
+
+@import "components/head";
 @import "components/content";
 @import "components/columns";
 
-@import "base/mobstyle.scss"
+
+@import "partials/head";
+@import "partials/content";
+@import "partials/columns";
+
